@@ -1,0 +1,209 @@
+
+/* page-3 */
+
+.testimonial-section {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: left;
+  background-color: #D5FAFC;
+  
+}
+
+
+.quote-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.quote-img-left {
+  height: 20px;
+  width: 20px;
+  flex-shrink: 0;
+  margin-top: 6px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.quote mark{
+  height: 40px;
+  margin: 10px auto 20px;
+}
+
+.testimonial-section h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 20px;
+  margin-left: 200px;
+  text-align: left;
+  width: 600px;
+  
+  background-image: url('../images/Quote\ mark.png');
+  background-repeat: no-repeat;
+  background-position:0;
+  background-size: 80px;
+  padding: 60px 0; 
+  position: relative;
+  height: 40px;
+  background-size: 120px auto;
+}
+
+
+.subtext {
+  font-size: 18px;
+  color: #444;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+
+
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 40px 80px;
+  gap: 30px;
+  padding: 40px;
+
+}
+
+.testimonial-box {
+  display: grid;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  gap: 20px;
+}
+
+.logo {
+  height: 25px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.quote-img {
+  margin-left: 0;
+  height: 20px;
+  flex-shrink: 0;
+  margin-top: 5px;
+  width: 20px;
+  margin-bottom: 10px;
+}
+
+.quote {
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 4px;
+}
+
+.role {
+  font-size: 14px;
+  color: #777;
+}
+
+.right-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 550px;
+  margin-left: 0;
+
+}
+.left-container{
+  width: 450px;
+  margin-left: 50px;
+  margin-top: 150px;
+  
+}
+
+.testimonial-box.box-3 {
+  width: 400px; 
+  align-self: start; 
+}
+
+@media (max-width: 768px) {
+  .testimonial-section h2 {
+    font-size: 28px;
+    width: auto;
+    margin-left: 0;
+    padding: 40px 0;
+    background-size: 60px auto;
+    text-align: center;
+  }
+
+  .subtext {
+    font-size: 16px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+    margin: 20px 10px;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .left-container,
+  .right-container {
+    width: 100%;
+    margin: 0;
+    align-items: center;
+  }
+
+  .testimonial-box,
+  .testimonial-box.box-3 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .quote {
+    font-size: 16px;
+  }
+
+  .quote-img {
+    height: 16px;
+    width: 16px;
+  }
+
+  .logo {
+    height: 20px;
+  }
+
+  .name {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .role {
+    font-size: 13px;
+    text-align: left;
+  }
+}
+
